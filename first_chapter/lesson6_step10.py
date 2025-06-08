@@ -9,11 +9,11 @@ try:
     browser.get(link)
 
     first_name_input = browser.find_element(By.CSS_SELECTOR, '.form-control.first[placeholder = "Input your first name"]')
-    first_name_input.send_keys('Джош')
+    first_name_input.send_keys('Джим')
     last_name_input = browser.find_element(By.CSS_SELECTOR, '.form-control.second[placeholder = "Input your last name"]')
-    last_name_input.send_keys('Дилдон')
+    last_name_input.send_keys('Милтон')
     email_input = browser.find_element(By.CSS_SELECTOR, '.form-control.third')
-    email_input.send_keys('joshdildon@gmail.com')
+    email_input.send_keys('JimMilton@gmail.com')
     sub_button = browser.find_element(By.CSS_SELECTOR, '.btn.btn-default')
 
     sub_button.click()
