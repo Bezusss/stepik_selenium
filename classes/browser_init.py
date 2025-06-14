@@ -3,7 +3,7 @@ from selenium.webdriver.common import by
 
 class Browser:
     def __init__(self):
-        """Инициализация браузера (Chrome) при создании экзкмпляра класса"""
+        """Инициализация браузера (Chrome) при создании экземпляра класса"""
         self.driver = webdriver.Chrome()
 
     def open_page(self,url):
